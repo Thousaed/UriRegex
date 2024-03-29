@@ -1,0 +1,25 @@
+{
+    "name": "thousaed/uri-regex",
+    "description": "A simple library that uses regular expression to matcURI path or segment",
+    "type": "library",
+    "keyword": ["regex", "uri", "regular expression", "url"],
+    "require": {
+        "php": "^8.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "11.1.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Thousaed\\UriRegex\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Praise Anthony",
+            "email": "wisterion9@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
